@@ -62,7 +62,7 @@
                 <h3 class="box-title">Information</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body no-padding" style="overflow-x: scroll">
+            <div class="box-body no-padding">
                 <div class="box-group" id="accordion">
                     <!-- we are adding the .panel class so bootstrap.js collapse plugin detects it -->
 
@@ -79,7 +79,7 @@
                             <div id="collapse{{ $part }}" class="panel-collapse collapse" aria-expanded="false"
                                  style="height: 0px;">
                                 <div class="box-body no-padding no-border">
-                                    <div class="table-responsive">
+                                    <div class="table-responsive" style="overflow-x: scroll">
                                         <table class="table table-striped no-margin">
                                             @foreach($detail as $key => $value)
                                                 <tr>
