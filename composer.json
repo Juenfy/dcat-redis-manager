@@ -1,0 +1,33 @@
+{
+    "name": "juenfy/dcat-redis-manager",
+    "alias": "",
+    "description": "Description...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/juenfy/dcat-redis-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juenfy",
+            "email": "824314051@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0",
+        "predis/predis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juenfy\\DcatRedisManager\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Juenfy\\DcatRedisManager\\DcatRedisManagerServiceProvider",
+        "laravel": {
+            "providers": [
+                "Juenfy\\DcatRedisManager\\DcatRedisManagerServiceProvider"
+            ]
+        }
+    }
+}

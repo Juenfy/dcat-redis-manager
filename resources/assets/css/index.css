@@ -1,0 +1,20 @@
+.redis-manager .label-primary {
+    background-color: #4f63a8;
+}
+.redis-manager .label-success {
+    background-color: #21b978;
+}
+.redis-manager .label-default {
+    color: #414750 !important;
+    background-color: #d2d6de;
+}
+.redis-manager .label-info {
+    background-color: #3085d6;
+}
+.redis-manager .label-danger {
+    color: #fff !important;
+    background-color: #ea5455;
+}
+.redis-manager .label-warning {
+    background-color: #dda451;
+}
