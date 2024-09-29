@@ -19,4 +19,8 @@ REDIS_CLIENT=predis
 ```shell
 //            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
 ```
+
+截图
+<img src="https://raw.githubusercontent.com/Juenfy/resources/refs/heads/master/1727601883198.jpg">
+
 enjoy!!!
