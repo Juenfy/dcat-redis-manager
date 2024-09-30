@@ -34,7 +34,6 @@ class DcatRedisManagerServiceProvider extends ServiceProvider
 	{
 		parent::init();
         Admin::requireAssets('@juenfy.dcat-redis-manager');
-        admin_require_assets('select2');
-        admin_require_assets('sweetalert2');
+        Admin::requireAssets('select2');
 	}
 }
